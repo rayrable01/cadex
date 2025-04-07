@@ -36,7 +36,7 @@ export const FormPage = () => {
     const loginMutation = useMutation({
         mutationFn: (data: DataSchemaType) => sendRequest(data),
         onSuccess: () => {
-            navigate("/form/success");
+            navigate("/cadex/form/success");
         },
         onError: (error) => {
             console.error("Ошибка авторизации:", error.message);
