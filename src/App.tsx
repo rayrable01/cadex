@@ -15,7 +15,7 @@ function App() {
         <Routes>
           <Route path="/cadex/" element={<Main />} />
           <Route path="/cadex/form" element={<FormPage />} />
-          <Route path="/cadex/form/success" element={<SuccessForm />} />
+          <Route path="/form/success" element={<SuccessForm />} />
         </Routes>
       </main>
       <Footer />
