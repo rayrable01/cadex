@@ -5,7 +5,7 @@ export const ContactButton = () => {
     return (
     <Button
         component={RouterLink}
-        to="/form"
+        to="/cadex/form"
         variant="contained"
         sx={{
             backgroundColor: "black",

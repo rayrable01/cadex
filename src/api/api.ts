@@ -8,6 +8,7 @@ export const dataSchema = z.object({
 
 export type DataSchemaType = z.infer<typeof dataSchema>;
 
+// @ts-expect-error ignore
 export const sendRequest = (data: DataSchemaType): Promise<unknown> => {
     console.log(`Thank you for your interest, ${data.username},`)
 }

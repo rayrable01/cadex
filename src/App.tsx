@@ -13,9 +13,9 @@ function App() {
       <Header />
       <main className='main'>
         <Routes>
-          <Route path="/" element={<Main />} />
-          <Route path="/form" element={<FormPage />} />
-          <Route path="/form/success" element={<SuccessForm />} />
+          <Route path="/cadex/" element={<Main />} />
+          <Route path="/cadex/form" element={<FormPage />} />
+          <Route path="/cadex/form/success" element={<SuccessForm />} />
         </Routes>
       </main>
       <Footer />
